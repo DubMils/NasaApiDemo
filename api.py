@@ -42,20 +42,5 @@ def get_earth_photos(date):
 # Get the list of asteroids that passed near Earth on a date.
 # Same pattern as get_earth_photos, but this time you write it.
 def get_asteroids(date):
-    # Step 1: Make the params dictionary.
-    #         This API needs three things:
-    #           "api_key"     your key
-    #           "start_date"  the date
-    #           "end_date"    the same date again (we only want one day)
-
-    # Step 2: Send the request to NEO_URL with your params.
-
-    # Step 3: If the status code is not 200, print the error and return None.
-
-    # Step 4: Turn the response into a dictionary called data.
-
-    # Step 5: The asteroids are inside the data like this:
-    #           data["near_earth_objects"][date]
-    #         Return that list.
-
+  
     return None
